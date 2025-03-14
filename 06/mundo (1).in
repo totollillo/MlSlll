@@ -1,0 +1,50 @@
+<ejecucion>
+	<condiciones instruccionesMaximasAEjecutar="10000000" longitudStack="65000"></condiciones>
+	<mundos>
+		<mundo nombre="mundo_0" ancho="100" alto="100">
+			<pared x1="5" y1="16" x2="6"></pared>
+			<pared x1="6" y1="16" x2="7"></pared>
+			<pared x1="7" y1="16" x2="8"></pared>
+			<pared x1="8" y1="16" x2="9"></pared>
+			<pared x1="9" y1="16" x2="10"></pared>
+			<pared x1="10" y1="16" x2="11"></pared>
+			<pared x1="11" y1="16" x2="12"></pared>
+			<pared x1="12" y1="16" x2="13"></pared>
+			<pared x1="13" y1="16" x2="14"></pared>
+			<pared x1="5" y1="16" y2="17"></pared>
+			<pared x1="6" y1="17" x2="7"></pared>
+			<pared x1="7" y1="17" x2="8"></pared>
+			<pared x1="8" y1="17" x2="9"></pared>
+			<pared x1="9" y1="17" x2="10"></pared>
+			<pared x1="10" y1="17" x2="11"></pared>
+			<pared x1="11" y1="17" x2="12"></pared>
+			<pared x1="12" y1="17" x2="13"></pared>
+			<pared x1="14" y1="16" y2="17"></pared>
+			<pared x1="5" y1="17" y2="18"></pared>
+			<pared x1="6" y1="17" y2="18"></pared>
+			<pared x1="6" y1="18" x2="7"></pared>
+			<pared x1="7" y1="18" x2="8"></pared>
+			<pared x1="8" y1="18" x2="9"></pared>
+			<pared x1="9" y1="18" x2="10"></pared>
+			<pared x1="10" y1="18" x2="11"></pared>
+			<pared x1="11" y1="18" x2="12"></pared>
+			<pared x1="12" y1="18" x2="13"></pared>
+			<pared x1="13" y1="17" y2="18"></pared>
+			<pared x1="14" y1="17" y2="18"></pared>
+			<pared x1="5" y1="18" y2="19"></pared>
+			<pared x1="5" y1="19" x2="6"></pared>
+			<pared x1="6" y1="19" x2="7"></pared>
+			<pared x1="7" y1="19" x2="8"></pared>
+			<pared x1="8" y1="19" x2="9"></pared>
+			<pared x1="9" y1="19" x2="10"></pared>
+			<pared x1="10" y1="19" x2="11"></pared>
+			<pared x1="11" y1="19" x2="12"></pared>
+			<pared x1="12" y1="19" x2="13"></pared>
+			<pared x1="13" y1="19" x2="14"></pared>
+			<pared x1="14" y1="18" y2="19"></pared>
+		</mundo>
+	</mundos>
+	<programas tipoEjecucion="CONTINUA" intruccionesCambioContexto="1" milisegundosParaPasoAutomatico="0">
+		<programa nombre="p1" ruta="{$2$}" mundoDeEjecucion="mundo_0" xKarel="6" yKarel="19" direccionKarel="ESTE" mochilaKarel="9999"></programa>
+	</programas>
+</ejecucion>
