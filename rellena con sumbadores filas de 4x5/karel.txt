@@ -1,0 +1,42 @@
+class program {
+	void llena(){
+ 	iterate(4){
+ 	putbeeper();
+  if(frontIsClear){
+  move();
+       }
+     }
+   }
+   void llenav2(){
+   while(frontIsClear){
+   putbeeper();
+   move();
+      } 
+     }
+   void derecha(){
+   turnleft();
+     turnleft();
+      turnleft();
+      }
+    program () {
+        // TODO poner codigo aqui
+        llena();
+        llenav2();
+        derecha();
+        move();
+        derecha();
+        llena();
+        turnleft();
+        move();
+        turnleft();
+        llena();
+        derecha(); 
+        move();
+        derecha();
+        llena();
+        turnleft();
+        move();
+        turnleft();
+        llena();
+    }
+}
